@@ -1,0 +1,440 @@
+
+.recorrido__title {
+    font-family: var(--font-secondary);
+    font-size: 6rem;
+    background-color: #fff;
+    color: var(--orange-light);
+    text-align: left;
+    margin: 10rem 0 3rem 5rem;
+    padding: 0rem 3rem 0rem 1rem;
+    width: 63%;
+    border-left: 7px solid var(--orange-lighter);
+}
+
+.transition{
+    background-color: #05043c;
+    transition: all 0.5s ease;
+}
+
+.backMap {
+    position: absolute;
+    padding: 0.8rem 1rem;
+    left: 1%;
+    bottom: 3%;
+    color: #fff;
+    z-index: 999;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.backMap:hover {
+    background-color: #ef2d5e;
+    border-radius: 7px;
+}
+
+.btn__atras-img--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__atras-paragraph{
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+
+}
+
+.btn__atras-img--container img {
+    width: 25%;
+}
+
+.map__container{
+    background-image: url('../../src/assets/Mapagral.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    height: 45rem;
+    padding: 1rem;
+}
+
+.map__container h1 {
+    color: #030474;
+    font-size: 9.1rem;
+    margin: 3rem 0 0 3rem;
+    font-weight: 500;
+    line-height: 5rem;
+    font-family: 'Rajdhani';
+}
+
+.map__container h1 span {
+    color: #828dff;
+    font-size: 5.1rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+    vertical-align: text-top;
+}
+
+.map__container h3 {
+    top: 33%;
+    color: #ff6100;
+    font-size: 5rem;
+    font-weight: 300;
+    margin-top: 1.5rem;
+    position: absolute;
+    right: 12%;
+}
+
+.marker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+}
+.location__lab{
+    top: 29%;
+    left: 33%;
+}
+
+.location__preescolar{
+    top: 50%;
+    left: 42%;
+}
+
+.location__auditorio{
+    top: 18%;
+    left: 43%;
+}
+
+.location__secundaria{
+    top: 7%;
+    left: 52%;
+}
+
+.location__terraza{
+    top: 8%;
+    left: 64%;
+}
+
+.location__terraza{
+    top: 8%;
+    left: 64%;
+} 
+
+.location__prePatio{
+    top: 36%;
+    left: 47%;
+} 
+
+.marker p{
+    background-color: #fff;
+    color: #002ec7;
+    font-weight: 500;
+    margin: 1rem 0;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+    border: 2px solid #002ec7;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.showMarkParagraph{
+    opacity: 1;
+}
+.hiddeMarkParagraph{
+    opacity: 0;
+}
+
+.mark__img{
+    width: 3rem;
+    border: 3px solid #002ec7;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0.5rem;
+    background-color: #dde4ff;
+    transition: all 0.3s ease;
+}
+
+.mark__img:hover{
+    transform: scale(1.3);
+}
+
+.mark__img img{
+    width: 54%;
+}
+
+.listMark__container{
+    padding: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    display: none;
+}
+
+.listMark__container a{
+    display: block;
+    color: #002ec7;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+.listMark__container a:hover{
+    color: #ff6100;
+    transform: translateX(2rem);
+}
+
+.lab_techo {
+    position: absolute;
+    left: 548px;
+    top: 311px;
+    height: 95px;
+    transition: 0.7s ease-out;
+    z-index: 4;
+}
+
+.pre_pared {
+    position: absolute;
+    left: 550px;
+    top: 339px;
+    height: 174px;
+    transition: 0.7s ease;
+    z-index: 3;
+}
+
+.pre_pared2 {
+    position: absolute;
+    left: 665px;
+    top: 376px;
+    height: 137px;
+    transition: 0.9s ease;
+    z-index: 3;
+}
+
+.auditorio {
+    position: absolute;
+    left: 662px;
+    top: 208px;
+    height: 90px;
+    width: 151px;
+    transition: 0.9s ease;
+    z-index: 3;
+}
+
+.terraza {
+    position: absolute;
+    left: 853px;
+    top: 111px;
+    height: 120px;
+    transition: 0.9s ease;
+    z-index: 3;
+}
+
+.pz1Movement{
+    transform: translateX(-20rem);
+}
+
+.pz2Movement{
+    transform: translateX(-25rem);
+}
+
+.pz3Movement{
+    transform: translateX(-25rem);
+}
+
+.pz4Movement{
+    transform: translate(-12rem, -9rem);
+}
+
+.pz5Movement{
+    transform: translateY(-6.1rem);
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+    .recorrido__title {
+        font-size: 3rem;
+        margin: 10rem 0 3rem 1rem;
+    }
+
+    .lab_techo {
+        position: absolute;
+        left: 269px;
+        top: 302px;
+        height: 97px;
+        transition: 0.7s ease-out;
+        z-index: 4;
+    }
+    
+    .pre_pared {
+        position: absolute;
+        left: 272px;
+        top: 329px;
+        height: 176px;
+        transition: 0.7s ease;
+        z-index: 3;
+    }
+    
+    .pre_pared2 {
+        position: absolute;
+        left: 389px;
+        top: 368px;
+        height: 137px;
+        transition: 0.9s ease;
+        z-index: 3;
+    }
+    
+    .auditorio {
+        position: absolute;
+        left: 383px;
+        top: 209px;
+        height: 88px;
+        width: 150px;
+        transition: 0.9s ease;
+        z-index: 3;
+    }
+    
+    .terraza {
+        position: absolute;
+        left: 567px;
+        top: 111px;
+        height: 122px;
+        transition: 0.9s ease;
+        z-index: 3;
+    }
+    
+    .pz1Movement{
+        transform: translateX(-20rem);
+    }
+    
+    .pz2Movement{
+        transform: translateX(-25rem);
+    }
+    
+    .pz3Movement{
+        transform: translateX(-25rem);
+    }
+    
+    .pz4Movement{
+        transform: translate(-12rem, -9rem);
+    }
+    
+    .pz5Movement{
+        transform: translateY(-6.1rem);
+    }
+
+    .map__container h3 {
+        top: 3%;
+        font-size: 4rem;
+        right: 12%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .recorrido__title {
+        font-size: 2.5rem;
+        margin-top: 4rem;
+    }
+
+    .map__container{
+        background-image: url('../../src/assets/mapaMovil.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        height: 45rem;
+        margin-top: 3rem;
+    }
+
+    .map__container h1 {
+        margin: 0.5rem 0 0 0;
+    }
+
+    .marker{
+        display: none;
+    }
+
+    .listMark__container{
+        display: block;
+        right: 9%;
+        top: 70%;
+    }
+
+    .lab_techo, .pre_pared, .pre_pared2, .auditorio, .terraza{
+        display: none;
+    }
+
+    .map__container h3 {
+        font-size: 3rem;
+    }
+
+    .logo__ica--footer {
+        height: 3rem;
+        width: 7%;
+        position: absolute;
+        bottom: 90%;
+        right: 3%;
+    }
+
+    .map__container h3 {
+        top: 7%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .map__container{
+        margin-top: 0;
+        padding: 0;
+        width: 100%;
+        height: 33rem;
+        margin-bottom: 3rem;
+    }
+
+    .map__container h1 {
+        font-size: 4.1rem;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .map__container h3 {
+        top: 18%;
+        color: #ff6100;
+        font-size: 2rem;
+        font-weight: 300;
+        margin-top: 0;
+        position: absolute;
+        left: 7%;
+    }
+
+    .listMark__container{
+        display: block;
+        right: 0%;
+        top: 65%;
+    }
+
+    .recorrido__title {
+        font-size: 2.5rem;
+        margin-top: 4rem;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .map__container h1 {
+        font-size: 12.1rem;
+        margin-bottom: 2rem;
+        padding: -1;
+    }
+    
+}

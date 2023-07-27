@@ -1,0 +1,284 @@
+.preescolar__hero{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+/* .preescolar__hero-image{
+    background: url('../../src/assets/aboutUs.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+.preescolar__hero-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden; 
+}
+
+.preescolar__hero-image img{
+    width: 100%;
+}
+
+.preescolar__hero-layout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #04002b;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    opacity: 0.7;
+}
+
+.preescolar__hero-title{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: #ffffff;
+    z-index: 3;
+    font-size: 7rem;
+    max-width: 80%;
+}
+
+.preescolar__docentes {
+    display: flex;
+    background-color: var(--orange-lighter);
+    width: 60%;
+    margin: 5rem 0 0 30rem;
+    position: relative;
+
+}
+.preescolar__requisitos{
+    background-color: #f5f5f5;
+    padding-bottom: 5rem;
+}
+
+.preescolar__docentes h3,
+.preescolar__requisitos h3{
+    color: var(--orange-light);
+    margin: 3rem 0;
+}
+
+.preescolar__docentes h3{
+    margin: 0;
+    color: #1c0565;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.preescolar__docentes h3::after{
+    content: '';
+    display: block;
+    width: 36%;
+    height: 5px;
+    background-color: #fff;
+    margin-top: 0.5rem;
+}
+
+.preescolar__docentes p{
+    text-align: justify;
+    margin: 2rem 0;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.preescolar__requisitos p{
+    text-align: justify;
+    margin: 2rem 0;
+    color: var(--blue-primary);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.preescolar__requisitos ul li{
+    text-align: justify;
+    margin: 1rem 0;
+    color: var(--blue-primary);
+    font-size: 1.2rem;
+    list-style: circle;
+}
+
+.preescolar__galery-container h2{
+    color: var(--orange-light);
+    margin: 3rem 0;
+    padding: 0;
+}
+
+.preescolar__galery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 5rem;
+}
+
+.preescolar__galery img{
+    width: 24%;
+    height: 250px;
+    transition: all 0.3s ease;
+}
+
+.preescolar__btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+// .preescolar__btn a{
+//     text-decoration: none;
+//     background-color: var(--blue-primary);
+//     padding: 1rem 2rem;
+//     color: #fff;
+//     border-radius: 3px;
+//     transition: all 0.7s ease;
+// }
+
+// .preescolar__btn a:hover{
+//     text-decoration: none;
+//     background-color: #fff;
+//     padding: 1rem 2rem;
+//     color: var(--blue-primary);
+//     border: 1px solid var(--blue-primary);
+// }
+
+.preescolar__galery img:hover{
+    transform: scale(1.1);
+    
+}
+
+.preescolar__docentes img{
+    position: absolute;
+    top: 36px;
+    left: -270px;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.preescolar__docentes-container{
+    width: 100%;
+    padding: 0 1rem;
+    margin-left: 20rem;
+}
+
+
+.preescolar__admisiones h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin-right: 2rem;
+    color: var(--blue-light);
+}
+
+.docentes__intro{
+    padding: 2rem 5rem;
+    display: flex;
+    gap: 0 1rem 0 0;
+}
+
+.docentes__intro-left {
+    width: 45%;
+}
+
+.docentes__intro-right {
+    width: 55%;
+}
+
+.docentes__intro-left h2 {
+    font-family: var(--font-secondary);
+    font-size: 6rem;
+    background-color: #fff;
+    color: var(--orange-light);
+    text-align: left;
+    width: 54%;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    padding: 0 3rem 0rem 1rem;
+    border-left: 7px solid var(--orange-lighter);
+}
+
+.docentes__intro-left p, ul{
+    width: 100%;
+    font-size: var(--font-text);
+    font-weight: 300;
+    font-style: normal;
+    padding: 0;
+    margin: 3rem 0 1rem 0;
+    color: var(--blue-primary);
+    text-align: left;
+}
+
+ul.docentes__intro-right {
+    padding-left: 5rem;
+    margin-top: 10rem;
+    li{
+        list-style: disc;
+        padding-left: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .docentes__intro-left h2 {
+        font-size: 5rem;
+    }
+
+    ul.docentes__intro-right {
+        margin-top: 8rem;
+    }
+
+
+    .preescolar__docentes {
+        display: flex;
+        background-color: var(--orange-lighter);
+        width: 49%;
+        margin: 5rem 0 0 28rem;
+        position: relative;
+        padding: 2rem 1rem;
+    }
+
+
+    .preescolar__docentes img {
+        position: absolute;
+        top: 55px;
+        left: -330px;
+        height: 79%;
+        box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    }
+
+
+    .preescolar__docentes p {
+        text-align: justify;
+        margin: 2rem 0 0 5rem;
+        color: #fff;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .preescolar__docentes-container {
+        width: 80%;
+        padding: 0 1rem;
+        margin-left: 0rem;
+    }
+
+
+    .preescolar__galery img {
+        width: 24%;
+        height: 210px;
+        transition: all 0.3s ease;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    
+}

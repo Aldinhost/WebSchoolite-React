@@ -1,0 +1,126 @@
+.preescolar__requisitos{
+    position: relative;
+    background-color: #fff;
+    padding: 2rem 0;
+
+}
+
+
+.preescolar__requisitos h3{
+    font-size: 3rem;
+    margin: 0.5rem 0 2rem 0;
+    color: var(--blue-light);
+}
+
+.preescolar__requisitos-space{
+    width: 0%;
+}
+
+
+.preescolar__requisitos img:hover{
+    animation: myAnim 3s ease 0s 1 normal both;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg) scale(1.2);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+.preescolar__requisitos-container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.preescolar__requisitos-alumno{
+    background-color: #dfe0ff;
+    padding: 2rem 3rem;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    p{
+        margin: 0;
+        color: #1c0565;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    p::after{
+        content: '';
+        display: block;
+        width: 36%;
+        height: 5px;
+        background-color: #fff;
+        margin-top: 0.5rem;
+        margin-bottom: 3rem;
+    }
+    ul{
+        padding: 0 0 0 2rem;
+    }
+
+    ul li {
+        color: var(--blue-primary);
+        font-size: 1.2rem;
+        list-style: disc;
+        margin-bottom: 1.5rem;
+        line-height: 1.1rem;
+        text-align: left;
+    }
+}
+
+.preescolar__requisitos-padre{
+    background-color: #fff;
+    padding: 2rem 3rem;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    p{
+        margin: 0;
+        color: #1c0565;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    p::after{
+        content: '';
+        display: block;
+        width: 36%;
+        height: 5px;
+        background-color: var(--orange-light);
+        margin-top: 0.5rem;
+        margin-bottom: 3rem;
+    }
+    ul li{
+        color: var(--blue-primary);
+        font-size: 1.2rem;
+        list-style: disc;
+        margin-bottom: 1.7rem;
+        line-height: 1.4rem;
+    }
+}
+
+
+
+

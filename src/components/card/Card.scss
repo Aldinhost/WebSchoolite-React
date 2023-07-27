@@ -1,0 +1,78 @@
+
+.card__containerZoom{
+    width: 400px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.card__containerZoom-img{
+    transition: 0.7s;
+}
+
+
+.card__containerZoom:hover .card__containerZoom-img{
+    transform: scale(1.2);
+}
+
+
+
+.card__Zoom{
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 7px 10px rgba($color: #8b8b8b, $alpha: 0.5);
+    transition: 0.5s ease-in-out;
+}
+
+
+.card__Zoom::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #006cc4a2, #002c8ba1);
+    z-index: 9;
+    transition: 0.5s all ;
+    opacity: 0;
+}
+
+.card__Zoom:hover::before{
+    opacity: 1;
+}
+
+.card__Zoom img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card__Zoom .card__zoom-info{
+   position: relative;
+   z-index: 99;
+   color: #fff;
+   opacity: 0;
+   transform: translateY(30px);
+   transition: all 0.5s;
+}
+
+.card__Zoom:hover .card__zoom-info{
+    opacity: 1;
+    transform: translateY(0px);
+ }
+
+
+ @media screen and (max-width: 768px) {
+    .card__containerZoom{
+        width: 300px;
+        height: 350px;
+        overflow: hidden;
+    }
+ }

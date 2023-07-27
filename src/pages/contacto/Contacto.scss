@@ -1,0 +1,178 @@
+.contacto__hero{
+    width: 100vw;
+    height: 70vh;
+    overflow-y: hidden;
+}
+
+/* .contacto__hero-image{
+    background: url('../../src/assets/aboutUs.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+.contacto__hero-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70vh;
+    overflow-y: hidden; 
+}
+
+.contacto__hero-image img{
+    width: 100%;
+}
+
+.contacto__hero-layout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #04002b;
+    width: 100%;
+    height: 70vh;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.contacto__hero-title{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    color: #fff;
+    z-index: 3;
+    font-size: 7rem;
+    max-width: 80%;
+}
+
+.contacto__layout{
+    padding: 1rem 7rem;
+    margin-bottom: 7rem;
+    margin-top: -7rem;
+}
+
+.contacto__title h2{
+    font-size: 3rem;
+    padding: 0;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.contacto__title p{
+    font-size: 2rem;
+    color: var(--blue-dark);
+    margin: 0;
+}
+
+.contacto__cardContact{
+    background-color: #fff;
+    width: 18rem;
+    height: 12rem;
+    margin: 2rem ;
+    padding: 2rem 4rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    border-radius: 5px;
+}
+
+.contacto__cardContact h4{
+    color: var(--blue-primary);
+    text-align: center;
+}
+
+.contacto__cardContact-icon{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.whatsapp{
+    color: #52ff2f;
+}
+
+.email{
+    color: #f3c51f;
+}
+.facebook{
+    color: #1877f2;
+}
+.instagram{
+    color: #e1306c;
+}
+
+.contacto__cards{
+    display: flex;
+}
+
+
+
+@media screen and (max-width:1124px) {
+    .contacto__cards {
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .contacto__title p {
+        margin-top: 6rem;
+    }
+
+    .contacto__cardContact {
+        width: 12rem;
+        height: 11rem;
+        margin: 0rem;
+        padding: 1rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .contacto__cards{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 2rem 3rem;
+    }
+
+    .contacto__cardContact {
+        width: 12rem;
+        padding: 2rem;
+    }
+
+    h4{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .contacto__title h2{
+        font-size: 2.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .contacto__title p {
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:536px) {
+
+    .contacto__layout {
+        padding: 1rem 2rem;
+    }
+
+    .contacto__hero-title {
+        font-size: 3rem;
+    }
+
+    .contacto__title h2 {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+}

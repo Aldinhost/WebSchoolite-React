@@ -1,0 +1,40 @@
+.formGeneral__btn{
+    width: 350px;
+    padding: 1em 2em;
+    border: 2px solid var(--orange-lighter);
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    border-radius: 3px;
+    color: var(--orange-lighter);
+}
+   
+.formGeneral__btn::before {
+    content: '';
+    width: 0;
+    height: 550%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: var(--orange-lighter);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .formGeneral__btn:hover::before {
+    width: 105%;
+    border: 2px solid var(--orange-lighter);
+   }
+   
+   .formGeneral__btn:hover {
+    color: #fff;
+    border: 2px solid var(--orange-lighter);
+   }

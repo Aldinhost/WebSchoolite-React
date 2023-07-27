@@ -1,0 +1,132 @@
+.ingles__content{
+    padding: 0 4rem;
+}
+
+.ingles__content h3{
+    line-height: 1.1;
+    color: var(--orange-primary);
+    text-align: left;
+    font-size: 3.5rem;
+    padding: 0 4rem;
+    font-weight: 600;
+}
+
+.ingles__content p{
+    width: 100%;
+    font-size: var(--font-text);
+    font-weight: 300;
+    font-style: normal;
+    padding: 0 4rem;
+    margin: 3rem 0 1rem 0;
+    color: var(--blue-primary);
+    text-align: left;
+}
+.ingles__content p span{
+    width: 100%;
+    font-size: var(--font-text);
+    font-weight: 400;
+}
+.ingles__content ul li{
+    width: 100%;
+    font-size: var(--font-text);
+    font-weight: 300;
+    font-style: normal;
+    color: var(--blue-primary);
+    text-align: left;
+    list-style: disc;
+    margin-left: 4rem;
+}
+.ingles__content ul{
+    margin-bottom: 4rem;
+}
+
+
+.ingles__docentes {
+    display: flex;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 5rem auto 1rem auto;
+    padding: 1rem 5rem;
+    text-align: center;
+}
+
+.ingles__docentes-container{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.ingles__docentes-container p{
+    color: var(--blue-light);
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+}
+
+.ingles__trips {
+    display: flex;
+    background-color: var(--orange-lighter);
+    width: 60%;
+    margin: 9rem 0 0 13rem;
+    position: relative;
+    margin-top: 15rem;
+}
+
+.ingles__trips h3{
+    color: var(--orange-light);
+    margin: 3rem 0;
+}
+
+.ingles__trips h3{
+    margin: 0;
+    color: #1c0565;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.ingles__trips h3::after{
+    content: '';
+    display: block;
+    width: 36%;
+    height: 5px;
+    background-color: #fff;
+    margin-top: 0.5rem;
+}
+
+.ingles__trips p{
+    text-align: justify;
+    margin: 2rem 0;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.ingles__trips img{
+    position: absolute;
+    top: 36px;
+    right: -270px;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.ingles__trips-container{
+    width: 60%;
+    padding: 0 1rem;
+    margin-left: 0rem;
+}
+
+
+@media screen and (max-width:1024px) {
+    .ingles__docentes {
+        margin: 0rem auto 1rem auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ingles__docentes {
+        display: flex;
+        font-size: 1.5rem;
+        width: 100%;
+        margin: -3rem auto 1rem auto;
+        text-align: justify;
+        padding: 0;
+    }
+}
