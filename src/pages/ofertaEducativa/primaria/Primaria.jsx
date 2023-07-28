@@ -13,6 +13,7 @@ const Primaria = () => {
     p2: '¡Nuestro nivel primaria es el lugar perfecto para que los niños crezcan y se desarrollen académica e integralmente!.',
     p3: 'Con más de cinco décadas de experiencia, nuestra metodología está enfocada en desarrollo de habilidades intelectuales la participación activa, el pensamiento crítico y la creatividad.',
     p4: '¡Únete no pierdas la oportunidad de brindar a tus hijos una educación de excelencia, donde formamos a los líderes del mañana!.',
+    image: '../../../src/assets/cuadrito-primaria.jpg'
   }
 
   return (
@@ -20,10 +21,8 @@ const Primaria = () => {
       <NavbarFix/>
           <section class="preescolar__hero">
           <div class="preescolar__hero-image">
-            <img src="../../../src/assets/primaria.jpg" alt="preescolar portada"/>
+            <img src="../../../src/assets/primaria-head-.jpg" alt="preescolar portada"/>
           </div>
-          <h1 class="preescolar__hero-title">Primaria</h1>
-          <div class="preescolar__hero-layout"></div>
         </section>
 
         <div className="docentes__intro">
@@ -46,15 +45,16 @@ const Primaria = () => {
           p2={textList.p2}
           p3={textList.p3}
           p4={textList.p4}
+          image={textList.image}
         />
 
         <section class="preescolar__galery-container section__padding">
           <h2>Galería</h2>
           <div class="preescolar__galery">
-            <img src="../../../src/assets/img4.png" alt="imagen galeria"/>
-            <img src="../../../src/assets/img5.png" alt="imagen galeria"/>
-            <img src="../../../src/assets/img3.jpg" alt="imagen galeria"/>
-            <img src="../../../src/assets/img6.jpg" alt="imagen galeria"/>
+            <img src="../../../src/assets/primaria-galeria-1.jpg" alt="imagen galeria"/>
+            <img src="../../../src/assets/primaria-galeria-2.jpg" alt="imagen galeria"/>
+            <img src="../../../src/assets/primaria-galeria-3.jpg" alt="imagen galeria"/>
+            <img src="../../../src/assets/primaria-galeria-4.jpg" alt="imagen galeria"/>
           </div>
         </section>
 

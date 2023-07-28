@@ -75,12 +75,11 @@ const Admisiones = () => {
       <section className="admisiones__hero">
         <div className="admisiones__hero-image">
           <img
-            src="../../../src/assets/admisiones.jpg"
+            src="../../../src/assets/admisiones-head.jpg"
             alt="admisiones portada"
           />
         </div>
-        <h1 className="admisiones__hero-title">Admisiones</h1>
-        <div className="admisiones__hero-layout"></div>
+
       </section>
 
       <section className="admisiones__content">

@@ -88,11 +88,12 @@ const Recorrido360 = () => {
             <h1>ICA<span>360°</span></h1>
             <h3>Mapa</h3>
             <section className="listMark__container">
-                <a href="#">1. Laboratorio</a>
-                <a href="#">2. Sala Preparatoria</a>
-                <a href="#">3. Sala de Computo</a>
-                <a href="#">4. Auditorio</a>
+                <a href="#">1. Preescolar</a>
+                <a href="#">2. Laboratorio</a>
+                <a href="#">3. auditorio</a>
+                <a href="#">4. Secundaria</a>
                 <a href="#">5. Terraza</a>
+                <a href="#">6. Patio Preescolar</a>
             </section>
             
             <a href="../../pages/Recorrido/recorrido.html">

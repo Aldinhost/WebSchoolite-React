@@ -43,14 +43,14 @@ const NavbarFix = ({navbarWhite}) => {
                     Secundaria
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item className="navbar__links-subitem" href='/preparatoria'>
+                {/* <NavDropdown.Item className="navbar__links-subitem" href='/preparatoria'>
                     Prepa en Línea
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item className="navbar__links-subitem" href='/universidad'>
                     Universidad
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
+                <NavDropdown.Divider /> */}
                 <NavDropdown.Item className="navbar__links-subitem" href='/ingles'>
                     Inglés
                 </NavDropdown.Item>

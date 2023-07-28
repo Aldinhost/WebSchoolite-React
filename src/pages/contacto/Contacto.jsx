@@ -11,10 +11,8 @@ const Contacto = () => {
       <NavbarFix />
       <section className="contacto__hero">
         <div className="contacto__hero-image">
-          <img src="../../../src/assets/contactus.jpg" alt="contacto portada" />
+          <img src="../../../src/assets/contacto-head.jpg" alt="contacto portada" />
         </div>
-        <h1 className="contacto__hero-title">Contacto</h1>
-        <div className="contacto__hero-layout"></div>
       </section>
 
       <div className="contacto__layout">

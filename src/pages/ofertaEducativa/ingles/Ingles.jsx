@@ -7,6 +7,7 @@ const Ingles = () => {
   const textList = {
     p1: 'Contamos con un equipo de profesionales altamente capacitados y apasionados por la enseñanza del inglés. ',
     p2: 'Nuestros docentes poseen una amplia experiencia y utilizan metodologías innovadoras que se adaptan a las necesidades individuales de cada alumno.',
+    image: '../../../src/assets/cuadrito-ingles.jpg'
   }
 
   return (
@@ -39,6 +40,7 @@ const Ingles = () => {
         <Docentes
           p1={textList.p1}
           p2={textList.p2}
+          image={textList.image}
         />
         
         <section className="ingles__trips section__padding">
@@ -57,10 +59,10 @@ const Ingles = () => {
         <section class="preescolar__galery-container section__padding">
           <h2>Galería</h2>
           <div class="preescolar__galery">
-            <img src="../../../src/assets/img4.png" alt="imagen galeria"/>
+            <img src="../../../src/assets/ingles-galeria2.jpg" alt="imagen galeria"/>
             <img src="../../../src/assets/img5.png" alt="imagen galeria"/>
-            <img src="../../../src/assets/img3.jpg" alt="imagen galeria"/>
-            <img src="../../../src/assets/img6.jpg" alt="imagen galeria"/>
+            <img src="../../../src/assets/ingles-galeria3.jpg" alt="imagen galeria"/>
+            <img src="../../../src/assets/ingles-galeria4.jpg" alt="imagen galeria"/>
           </div>
         </section>
 

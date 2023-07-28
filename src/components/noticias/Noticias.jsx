@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import NoticiasCard from "./card/noticiasCard";
 import FormNoticias from "../formNoticias/FormNoticias";
 
@@ -26,11 +26,5 @@ const Noticias = () => {
 };
 
 export default Noticias;
-
-{/* {
-     <NoticiasCard
-      data={item}
-     />
-} */}   
 
 
