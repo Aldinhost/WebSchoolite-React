@@ -3,8 +3,7 @@ import Footer from "../../components/footer/Footer";
 import NavbarFix from "../../components/navbar/Navbar";
 import Requisitos from "../../components/requisitos/Requisitos";
 import FormGeneral from "../../components/formGral/FormGral";
-
-import './admisiones.scss';
+import '/admisiones.scss';
 
 const Admisiones = () => {
   const [preescolar, setPreescolar] = useState(false);
