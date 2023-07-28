@@ -12,6 +12,7 @@ const Preescolar = ({navbarWhite}) => {
     p2: 'Nuestro enfoque educativo de nivel preescolar se basa en el juego y la exploración, permitiendo a los niños desarrollar habilidades y conocimientos, a través de actividades lúdicas mientras se divierten, en un ambiente completamente seguro.',
     p3: 'La seguridad de nuestros alumnos es una prioridad, contamos con instalaciones seguras y un equipo altamente capacitado para garantizar el bienestar de nuestros alumnos en todo momento.',
     p4: 'También nos enorgullece ofrecer un programa de inglés de alta calidad desde el nivel preescolar, con lo que los más pequeños comienzan a desarrollar sus habilidades en una segunda lengua.',
+    image: '../../src/assets/cuadrito-preescolar.jpg'
   }
 
   const handleImage = () =>{
@@ -46,15 +47,16 @@ const Preescolar = ({navbarWhite}) => {
           p2={textList.p2}
           p3={textList.p3}
           p4={textList.p4}
+          image={textList.image}
         />
 
         <section className="preescolar__galery-container section__padding">
           <h2>Galería</h2>
           <div className="preescolar__galery">
-            <img className='showPicture' src="../../../src/assets/img4.png" alt="imagen galeria" onClick={handleImage}/>
-            <img src="../../../src/assets/img5.png" alt="imagen galeria"/>
-            <img src="../../../src/assets/img3.jpg" alt="imagen galeria"/>
-            <img src="../../../src/assets/img6.jpg" alt="imagen galeria"/>
+            <img className='showPicture' src="../../../src/assets/preescolar-galeria1.jpg" alt="imagen galeria" onClick={handleImage}/>
+            <img src="../../../src/assets/preescolar-galeria2.jpg" alt="imagen galeria"/>
+            <img src="../../../src/assets/preescolar-galeria3.jpg" alt="imagen galeria"/>
+            <img src="../../../src/assets/preescolar-galeria4.jpg" alt="imagen galeria"/>
           </div>
         </section>
         

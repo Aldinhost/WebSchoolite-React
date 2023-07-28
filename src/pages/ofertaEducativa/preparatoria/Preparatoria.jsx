@@ -19,8 +19,6 @@ const Preparatoria = () => {
           <div className="preescolar__hero-image">
             <img src="../../../src/assets/prepa.jpg" alt="preescolar portada"/>
           </div>
-          <h1 className="preescolar__hero-title">Preparatoria</h1>
-          <div className="preescolar__hero-layout"></div>
         </section>
 
         <div className="docentes__intro">

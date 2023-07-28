@@ -1,7 +1,7 @@
-export const SliderData = [
+export const SlidersData = [
     {
       image:
-        '../src/assets/pilares-ingles.jpg'
+      '../src/assets/pilares-ingles.jpg'
     },
     {
       image:

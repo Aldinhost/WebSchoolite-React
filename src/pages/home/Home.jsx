@@ -5,7 +5,6 @@ import OfertaEducativa from "../../components/ofertaEducativa/OfertaEducativa"
 import Noticias from "../../components/noticias/Noticias"
 import Recorrido360 from "../../components/recorrido360/Recorrido360"
 import Footer from "../../components/footer/Footer"
-import { SliderData } from "../../components/carousel/SliderData"
 import NavbarFix from "../../components/navbar/Navbar"
 
 const Home = () => {
@@ -36,7 +35,6 @@ window.addEventListener('scroll', navFixed);
         <Portada/>
 
         <ImageSlider
-          slides={SliderData}
         />
         <section className="oferta__bg">
           <OfertaEducativa/>

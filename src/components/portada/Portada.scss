@@ -61,7 +61,7 @@
     .home {
         position: relative;
         width: 100%;
-        min-height: 81vh;
+        min-height: 63vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -96,9 +96,9 @@
     }
 
     .home{
-        background: url('../../src/assets/c5.png');
+        background: url('../../src/assets/portada-mobile2.jpg');
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top;
         background-size: cover;
     }
 }

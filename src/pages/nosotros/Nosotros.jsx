@@ -9,6 +9,10 @@ const Nosotros = ({ navbarWhite }) => {
       <NavbarFix />
       <section className="nosotros__hero">
         <div className="nosotros__hero-image">
+        <img
+            src="../../../src/assets/nosotros-head.jpg"
+            alt="admisiones portada"
+          />
         </div>
       </section>
 
@@ -46,13 +50,13 @@ const Nosotros = ({ navbarWhite }) => {
             </div>
 
             <div className="nosotros__history-image">
-              <img src="../../src/assets/history.jpg" alt="history ica" />
+              <img src="../../src/assets/nosotros-historia.jpg" alt="history ica" />
             </div>
           </div>
 
           <div class="nosotros__mision">
             <div className="nosotros__mision-image">
-              <img src="../../src/assets/mision.jpg" alt="mision ica" />
+              <img src="../../src/assets/nosotros-mision.jpg" alt="mision ica" />
             </div>
             <div className="nosotros__mision-text">
               <h3>Misión</h3>
@@ -86,7 +90,7 @@ const Nosotros = ({ navbarWhite }) => {
             </div>
 
             <div className="nosotros__vision-image">
-              <img src="../../src/assets/vision.jpg" alt="vision ica" />
+              <img src="../../src/assets/nosotros-vision.jpg" alt="vision ica" />
             </div>
           </div>
         </div>

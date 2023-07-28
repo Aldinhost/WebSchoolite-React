@@ -17,24 +17,16 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     overflow-y: hidden; 
 }
 
 .contacto__hero-image img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.contacto__hero-layout{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #04002b;
-    width: 100%;
-    height: 70vh;
-    z-index: 0;
-    opacity: 0.7;
-}
 
 .contacto__hero-title{
     position: absolute;
@@ -49,7 +41,7 @@
 .contacto__layout{
     padding: 1rem 7rem;
     margin-bottom: 7rem;
-    margin-top: -7rem;
+    margin-top: 12rem;
 }
 
 .contacto__title h2{

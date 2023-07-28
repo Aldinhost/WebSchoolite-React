@@ -190,7 +190,7 @@
 
 .lab_techo {
     position: absolute;
-    left: 504px;
+    left: 551px;
     top: 311px;
     height: 95px;
     transition: 0.7s ease-out;
@@ -199,8 +199,8 @@
 
 .pre_pared {
     position: absolute;
-    left: 507px;
-    top: 335px;
+    left: 550px;
+    top: 337px;
     height: 174px;
     width: 115px;
     transition: 0.7s ease;
@@ -209,7 +209,7 @@
 
 .pre_pared2 {
     position: absolute;
-    left: 620px;
+    left: 663px;
     top: 376px;
     height: 137px;
     transition: 0.9s ease;
@@ -218,7 +218,7 @@
 
 .auditorio {
     position: absolute;
-    left: 622px;
+    left: 663px;
     top: 208px;
     height: 90px;
     width: 151px;
@@ -228,7 +228,7 @@
 
 .terraza {
     position: absolute;
-    left: 812px;
+    left: 855px;
     top: 111px;
     height: 120px;
     transition: 0.9s ease;
@@ -346,7 +346,7 @@
     }
 
     .map__container{
-        background-image: url('../../src/assets/mapaMovil.png');
+        background-image: url('../../src/assets/isometrico-movil.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
