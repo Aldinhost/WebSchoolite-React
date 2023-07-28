@@ -1,18 +1,18 @@
 export const SliderData = [
     {
       image:
-        '../src/assets/idiomasMod.png'
+        '../src/assets/pilares-ingles.jpg'
     },
     {
       image:
-        '../src/assets/mathematike.png'
+        '../src/assets/pilares-matematk.jpg'
     },
     {
       image:
-        '../src/assets/microsoft.png'
+        '../src/assets/pilares-tecno.jpg'
     },
     {
       image:
-        '../src/assets/valores.png'
+        '../src/assets/pilares-valores.jpg'
     }
   ];
