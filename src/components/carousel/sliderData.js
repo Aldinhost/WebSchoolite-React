@@ -1,7 +1,7 @@
 export const SliderData = [
     {
       image:
-        '../src/assets/idiomasModSize.jpg'
+        '../src/assets/idiomasMod.png'
     },
     {
       image:

@@ -103,6 +103,15 @@
       margin-top: -1rem;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .slider {
+      margin-top: 2rem;
+      padding: 0;
+  }
+  }
+
+
   
     @media screen and (max-width:576px) {
       .slider__title{
@@ -146,5 +155,10 @@
       .slider {
         margin-top: 1rem;
       }
+
+      .sectionSlider__background-title {
+        margin-top: -1rem;
+        margin-bottom: 10rem;
+    }
       
   }

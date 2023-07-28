@@ -1,7 +1,7 @@
 
 .recorrido__title {
     font-family: var(--font-secondary);
-    font-size: 6rem;
+    font-size: 5rem;
     background-color: #fff;
     color: var(--orange-light);
     text-align: left;
@@ -190,7 +190,7 @@
 
 .lab_techo {
     position: absolute;
-    left: 548px;
+    left: 504px;
     top: 311px;
     height: 95px;
     transition: 0.7s ease-out;
@@ -199,16 +199,17 @@
 
 .pre_pared {
     position: absolute;
-    left: 550px;
-    top: 339px;
+    left: 507px;
+    top: 335px;
     height: 174px;
+    width: 115px;
     transition: 0.7s ease;
     z-index: 3;
 }
 
 .pre_pared2 {
     position: absolute;
-    left: 665px;
+    left: 620px;
     top: 376px;
     height: 137px;
     transition: 0.9s ease;
@@ -217,7 +218,7 @@
 
 .auditorio {
     position: absolute;
-    left: 662px;
+    left: 622px;
     top: 208px;
     height: 90px;
     width: 151px;
@@ -227,7 +228,7 @@
 
 .terraza {
     position: absolute;
-    left: 853px;
+    left: 812px;
     top: 111px;
     height: 120px;
     transition: 0.9s ease;
@@ -260,7 +261,7 @@
 
     .recorrido__title {
         font-size: 3rem;
-        margin: 10rem 0 3rem 1rem;
+        margin: 7rem 0 3rem 1rem;
     }
 
     .lab_techo {
@@ -274,7 +275,7 @@
     
     .pre_pared {
         position: absolute;
-        left: 272px;
+        left: 275px;
         top: 329px;
         height: 176px;
         transition: 0.7s ease;
@@ -423,7 +424,7 @@
     }
 
     .recorrido__title {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 4rem;
         margin-left: 0;
     }

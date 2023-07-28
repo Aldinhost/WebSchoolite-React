@@ -5,22 +5,22 @@ const NoticiasCard = () => {
     const datos = [
             {
                 image: "../../src/assets/noticias1.jpg",
-                title: 'Titulo 1',
+                title: 'Nivel Secundaria',
                 description: 'Sapien porttitor facilisi tortor diam turpis magna pretium dis, vehicula urna eleifend quisque curabitur dictum cubilia.'
             },
             {
                 image: '../../src/assets/noticias2.jpg',
-                title: 'Titulo 2',
+                title: 'Dia del Padre',
                 description: 'Sapien porttitor facilisi tortor diam turpis magna pretium dis, vehicula urna eleifend quisque curabitur dictum cubilia.'
             },
             {
                 image: '../../src/assets/noticias3.jpg',
-                title: 'Titulo 3',
+                title: 'Dia de los Museos',
                 description: 'Sapien porttitor facilisi tortor diam turpis magna pretium dis, vehicula urna eleifend quisque curabitur dictum cubilia.'
             },
             {
                 image: '../../src/assets/noticias4.jpg',
-                title: 'Titulo 4',
+                title: '5 de Mayo',
                 description: 'Sapien porttitor facilisi tortor diam turpis magna pretium dis, vehicula urna eleifend quisque curabitur dictum cubilia.'
             },
     ]

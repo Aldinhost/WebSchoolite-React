@@ -6,7 +6,7 @@
     color: var(--orange-light);
     text-align: left;
     width: 54%;
-    margin: 0 0 3rem 3rem;
+    margin: 0 0 3rem 2rem;
     padding: 0 3rem 0rem 1rem;
     border-left: 7px solid var(--orange-lighter);
 }
@@ -23,12 +23,17 @@
     padding-top: 12rem;
 }
 
+.card__containerZoom {
+    width: 350px;
+    height: 400px;
+}
+
 .oferta__paragraph {
     font-family: var(--font-secondary);
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    color: var(--blue-light);
+    color: var(--blue-primary);
     width: 80%;
     margin: 0 0 0rem 0;
     padding: 0 4rem 0 0;
@@ -37,16 +42,18 @@
 
 .cards__container{
     display: flex;
-    width: 95%;
-    margin: 3rem auto;
-    margin-bottom: 7rem;
+    width: 100%;
+    margin: 5rem auto 7rem auto;
     flex-wrap: wrap;
-    gap: 2rem 5rem;
-    justify-content: center;
+    gap: 2rem 2rem;
+    justify-content: space-around;
 }
 
 
-@media screen and (max-width:1100px) {
+
+
+
+@media screen and (max-width: 1100px) {
 
     .ofertaEducativa__intro {
         display: flex;
@@ -75,12 +82,12 @@
 
     .cards__container {
         display: flex;
-        width: 95%;
+        width: 100%;
         margin: 3rem auto;
         margin-bottom: 7rem;
         flex-wrap: wrap;
         gap: 2rem 1rem;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     main {
@@ -89,12 +96,15 @@
 
 }
 
+
+
 @media screen and (max-width:768px) {
 
     .ofertaEducativa__intro {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding-top: 7rem;
     }
 
     .oferta__title {
@@ -139,7 +149,7 @@
         margin-top: 5rem;
         padding: 0 1rem;
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .oferta__paragraph{
