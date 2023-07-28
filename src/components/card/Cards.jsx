@@ -4,12 +4,12 @@ import Card from "../card/Card";
 const Cards = () => {
 
     const images = {
-        preescolar: "../../src/assets/preescolarCard.jpg",
-        primaria: "../../src/assets/primaria.jpg",
-        secundaria: "../../src/assets/secundaria.jpg",
-        preparatoria: "../../src/assets/prepa.jpg",
-        universidad: "../../src/assets/universidad.jpg",
-        ingles: "../../src/assets/ingles.jpg"
+        preescolar: "../../src/assets/preescolarCard.webp",
+        primaria: "../../src/assets/primaria.webp",
+        secundaria: "../../src/assets/secundaria.webp",
+        preparatoria: "../../src/assets/prepa.webp",
+        universidad: "../../src/assets/universidad.webp",
+        ingles: "../../src/assets/ingles.webp"
     }
 
 
