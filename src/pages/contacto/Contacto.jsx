@@ -11,7 +11,7 @@ const Contacto = () => {
       <NavbarFix />
       <section className="contacto__hero">
         <div className="contacto__hero-image">
-          <img src="../../../src/assets/contacto-head.jpg" alt="contacto portada" />
+          <img src="../../../src/assets/admisionContent2.webp" alt="contacto portada" />
         </div>
       </section>
 
@@ -21,7 +21,7 @@ const Contacto = () => {
           <p>Para nosotros será un placer atenderle.</p>
         </div>
         <div className="contacto__cards">
-        <a className="contacto__cardContact whatsapp" href="https://wa.me/525615657942?text=Buen%20día,%20me%20gustaria%20obtener%20información" target="_blank">
+        <a className="contacto__cardContact whatsapp" href="https://wa.me/525615657942?text=Buen%20día,%20me%20gustaria%20obtener%20información" target="_blank" rel="noreferrer">
           <div className="">
             <h4>WhatsApp</h4>
             <div className="contacto__cardContact-icon">
@@ -29,7 +29,7 @@ const Contacto = () => {
             </div>
           </div>
         </a>
-        <a className="contacto__cardContact email" href="mailto:ica.contacto@gmail.com?Subject=Me%20gustaría%20obtener%20información" target="_blank">
+        <a className="contacto__cardContact email" href="mailto:ica.contacto@gmail.com?Subject=Me%20gustaría%20obtener%20información" target="_blank" rel="noreferrer">
           <div>
             <h4>Email</h4>
             <div className="contacto__cardContact-icon">
@@ -37,7 +37,7 @@ const Contacto = () => {
             </div>
           </div>
         </a>
-        <a className="contacto__cardContact facebook" href="https://m.me/icazteca/" target="_blank">
+        <a className="contacto__cardContact facebook" href="https://m.me/icazteca/" target="_blank" rel="noreferrer">
           <div>
             <h4>Facebook</h4>
             <div className="contacto__cardContact-icon">
@@ -45,7 +45,7 @@ const Contacto = () => {
             </div>
           </div>
         </a>
-        <a className="contacto__cardContact instagram" href="https://www.instagram.com/icazteca/" target="_blank">
+        <a className="contacto__cardContact instagram" href="https://www.instagram.com/icazteca/" target="_blank" rel="noreferrer">
           <div>
             <h4>Instagram</h4>
             <div className="contacto__cardContact-icon">

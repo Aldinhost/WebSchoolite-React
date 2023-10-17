@@ -1,0 +1,11 @@
+export { default as Home } from './home/Home.jsx';
+export { default as Nosotros } from './nosotros/Nosotros.jsx';
+export { default as Admisiones } from './admisiones/Admisiones.jsx';
+export { default as Contacto } from './contacto/Contacto.jsx';
+export { default as Preescolar } from './ofertaEducativa/preescolar/Preescolar.jsx';
+export { default as Primaria } from './ofertaEducativa/primaria/Primaria.jsx';
+export { default as Secundaria } from './ofertaEducativa/secundaria/Secundaria.jsx';
+export { default as Preparatoria } from './ofertaEducativa/preparatoria/Preparatoria.jsx';
+export { default as Universidad } from './ofertaEducativa/universidad/Universidad.jsx';
+export { default as Ingles } from './ofertaEducativa/ingles/Ingles.jsx';
+export { default as FormNoticias } from '../components/formNoticias/FormNoticias.jsx';

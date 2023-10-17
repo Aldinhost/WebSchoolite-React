@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Cards from "../card/Cards";
 
 const OfertaEducativa = () => {

@@ -1,8 +1,5 @@
-import { useState } from "react"
 import Docentes from "../../../components/docentes/Docentes"
 import NavbarFix from "../../../components/navbar/Navbar"
-import Requisitos from "../../../components/requisitos/Requisitos"
-import FormGeneral from "../../../components/formGral/FormGral"
 import Footer from "../../../components/footer/Footer"
 
 
@@ -13,15 +10,15 @@ const Primaria = () => {
     p2: '¡Nuestro nivel primaria es el lugar perfecto para que los niños crezcan y se desarrollen académica e integralmente!.',
     p3: 'Con más de cinco décadas de experiencia, nuestra metodología está enfocada en desarrollo de habilidades intelectuales la participación activa, el pensamiento crítico y la creatividad.',
     p4: '¡Únete no pierdas la oportunidad de brindar a tus hijos una educación de excelencia, donde formamos a los líderes del mañana!.',
-    image: '../../../src/assets/cuadrito-primaria.jpg'
+    image: '../../../src/assets/primaria.webp'
   }
 
   return (
     <>
       <NavbarFix/>
-          <section class="preescolar__hero">
-          <div class="preescolar__hero-image">
-            <img src="../../../src/assets/primaria-head-.jpg" alt="preescolar portada"/>
+          <section className="preescolar__hero">
+          <div className="preescolar__hero-image">
+            <img src="../../../src/assets/primaria.webp" alt="preescolar portada"/>
           </div>
         </section>
 
@@ -48,13 +45,13 @@ const Primaria = () => {
           image={textList.image}
         />
 
-        <section class="preescolar__galery-container section__padding">
+        <section className="preescolar__galery-container section__padding">
           <h2>Galería</h2>
-          <div class="preescolar__galery">
+          <div className="preescolar__galery">
             <img src="../../../src/assets/primaria-galeria-1.jpg" alt="imagen galeria"/>
-            <img src="../../../src/assets/primaria-galeria-2.jpg" alt="imagen galeria"/>
-            <img src="../../../src/assets/primaria-galeria-3.jpg" alt="imagen galeria"/>
-            <img src="../../../src/assets/primaria-galeria-4.jpg" alt="imagen galeria"/>
+            <img src="../../../src/assets/img4.webp" alt="imagen galeria"/>
+            <img src="../../../src/assets/ingles.webp" alt="imagen galeria"/>
+            <img src="../../../src/assets/img6.webp" alt="imagen galeria"/>
           </div>
         </section>
 

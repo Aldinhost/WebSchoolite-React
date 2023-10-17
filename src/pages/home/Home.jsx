@@ -1,10 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useState } from "react"
-import Portada from "../../components/portada/Portada"
+import {Portada, OfertaEducativa, Noticias, Footer } from "../../components"
 import ImageSlider from "../../components/carousel/Carousel"
-import OfertaEducativa from "../../components/ofertaEducativa/OfertaEducativa"
-import Noticias from "../../components/noticias/Noticias"
 import Recorrido360 from "../../components/recorrido360/Recorrido360"
-import Footer from "../../components/footer/Footer"
 import NavbarFix from "../../components/navbar/Navbar"
 
 const Home = () => {

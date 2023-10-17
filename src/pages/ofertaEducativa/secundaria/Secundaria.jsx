@@ -1,7 +1,5 @@
 import NavbarFix from "../../../components/navbar/Navbar"
 import Docentes from "../../../components/docentes/Docentes"
-import Requisitos from "../../../components/requisitos/Requisitos"
-import FormGeneral from "../../../components/formGral/FormGral"
 import Footer from "../../../components/footer/Footer"
 
 const Secundaria = () => {
@@ -10,15 +8,15 @@ const Secundaria = () => {
     p2: 'Buscamos motivar y despertar el interés de nuestros estudiantes, mediante una metodología de trabajo dinámica que inspire compromiso y disciplina, al tiempo que fomentamos la creatividad y habilidades prácticas.',
     p3: 'También promovemos valores fundamentales como el respeto, la responsabilidad y la solidaridad. Queremos formar ciudadanos comprometidos y conscientes de su entorno.',
     p4: '¡Te invitamos a formar parte de nuestra comunidad educativa en el Instituto Cultural Azteca! ',
-    image: '../../../src/assets/cuadrito-secundaria.jpg'
+    image: '../../../src/assets/secundaria.webp'
   }
 
   return (
     <>
       <NavbarFix/>
-          <section class="preescolar__hero">
-          <div class="preescolar__hero-image">
-            <img src="../../../src/assets/secu-head.jpg" alt="preescolar portada"/>
+          <section className="preescolar__hero">
+          <div className="preescolar__hero-image">
+            <img src="../../../src/assets/secundaria.webp" alt="preescolar portada"/>
           </div>
         </section>
 
@@ -46,12 +44,12 @@ const Secundaria = () => {
         />
 
 
-        <section class="preescolar__galery-container section__padding">
+        <section className="preescolar__galery-container section__padding">
           <h2>Galería</h2>
-          <div class="preescolar__galery">
+          <div className="preescolar__galery">
             <img src="../../../src/assets/secu-galeria1.jpg" alt="imagen galeria"/>
-            <img src="../../../src/assets/secu-galeria2.jpg" alt="imagen galeria"/>
-            <img src="../../../src/assets/secu-galeria3.jpg" alt="imagen galeria"/>
+            <img src="../../../src/assets/ingles.webp" alt="imagen galeria"/>
+            <img src="../../../src/assets/secundaria.webp" alt="imagen galeria"/>
             <img src="../../../src/assets/secu-galeria4.jpg" alt="imagen galeria"/>
           </div>
         </section>

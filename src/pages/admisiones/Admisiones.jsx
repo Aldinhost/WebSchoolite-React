@@ -72,7 +72,7 @@ const Admisiones = () => {
       <section className="admisiones__hero">
         <div className="admisiones__hero-image">
           <img
-            src="../../../src/assets/admisiones-head.jpg"
+            src="../../../src/assets/admisionContent.webp"
             alt="admisiones portada"
           />
         </div>

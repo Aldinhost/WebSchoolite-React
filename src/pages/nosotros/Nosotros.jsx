@@ -1,9 +1,8 @@
 import Footer from "../../components/footer/Footer";
-import NavigationBar from "../../components/nav/navigationBar";
 import NavbarFix from "../../components/navbar/Navbar";
  
 
-const Nosotros = ({ navbarWhite }) => {
+const Nosotros = () => {
   return (
     <>
       <NavbarFix />
@@ -16,8 +15,8 @@ const Nosotros = ({ navbarWhite }) => {
         </div>
       </section>
 
-      <section class="nosotros__historia">
-        <div class="nosotros__historia-bg">
+      <section className="nosotros__historia">
+        <div className="nosotros__historia-bg">
           <div className="nosotros__historia-bg_image">
             <img src="../../src/assets/logo_ica_noText.png" alt="escudo ica" />
           </div>
@@ -50,13 +49,13 @@ const Nosotros = ({ navbarWhite }) => {
             </div>
 
             <div className="nosotros__history-image">
-              <img src="../../src/assets/nosotros-historia.jpg" alt="history ica" />
+              <img src="../../src/assets/history.webp" alt="history ica" />
             </div>
           </div>
 
-          <div class="nosotros__mision">
+          <div className="nosotros__mision">
             <div className="nosotros__mision-image">
-              <img src="../../src/assets/nosotros-mision.jpg" alt="mision ica" />
+              <img src="../../src/assets/mision.webp" alt="mision ica" />
             </div>
             <div className="nosotros__mision-text">
               <h3>Misión</h3>
@@ -75,7 +74,7 @@ const Nosotros = ({ navbarWhite }) => {
             </div>
           </div>
 
-          <div class="nosotros__vision">
+          <div className="nosotros__vision">
             <div className="nosotros__vision-text">
               <h3>Visión</h3>
               <p>
@@ -90,7 +89,7 @@ const Nosotros = ({ navbarWhite }) => {
             </div>
 
             <div className="nosotros__vision-image">
-              <img src="../../src/assets/nosotros-vision.jpg" alt="vision ica" />
+              <img src="../../src/assets/vision.webp" alt="vision ica" />
             </div>
           </div>
         </div>

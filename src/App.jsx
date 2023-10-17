@@ -1,16 +1,18 @@
 import {Route, Routes} from 'react-router-dom';
 
-import Home from './pages/home/Home';
-import Nosotros from './pages/nosotros/Nosotros';
-import Admisiones from './pages/admisiones/Admisiones';
-import Contacto from './pages/contacto/Contacto';
-import Preescolar from './pages/ofertaEducativa/preescolar/Preescolar'
-import Primaria from './pages/ofertaEducativa/primaria/Primaria';
-import Secundaria from './pages/ofertaEducativa/secundaria/Secundaria';
-import Preparatoria from './pages/ofertaEducativa/preparatoria/Preparatoria';
-import Universidad from './pages/ofertaEducativa/universidad/Universidad';
-import Ingles from './pages/ofertaEducativa/ingles/Ingles';
-import FormNoticias from './components/formNoticias/FormNoticias';
+import { 
+  Home, 
+  Nosotros, 
+  Admisiones, 
+  Contacto, 
+  Preescolar, 
+  Primaria, 
+  Secundaria, 
+  Preparatoria, 
+  Universidad, 
+  Ingles, 
+  FormNoticias} from './pages';
+
 
 
 import './App.css'
